@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    font-family:Arial ;
+    border: border-box;
+
+}
+.navbar{
+     height: 60px;
+     background-color: #0f1111;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     
+    
+
+}
+.nav-logo{
+    
+    height: 60px;
+    width: 100px;
+}
+.logo{
+    background-image: url("Amazon-Emblem.jpg");
+    background-size: cover;
+    height: 45px;
+    width: 100%;
+
+
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+
+/**box2**/
+.address-1{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 20px;
+
+}
+.address-2{
+    font-size: 1rem;
+  
+}
+.add-icon{
+    display: flex;
+    justify-content: center;
+}
+    
+/**box3**/
+.nav-search{
+    display: flex;
+    background-color: rgb(239, 170, 20);
+    width: 620px;
+    height: 30px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    
+}
+select{
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border:none;
+
+}
+.search-input:hover{
+    border: 2px solid orange;
+}
+.search-icon{
+    width: 45px; ;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    color: #0f1111;
+}
+
+/**box4**/
+
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 1rem;
+    font-weight: 700px;
+}
+/**box5**/
+.ad-cart i{
+    font-size: 30px;
+
+}
+/**panel**/
+.panel{
+    height: 35px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items:center ;
+    justify-content: space-evenly;
+}
+.panel-options{
+    display: flex;
+    width: 70%;
+    font-size: 0.85rem;
+    
+    
+}
+.panel-options p{
+    margin-left: 10px;
+}
+.panel-details{
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+/**hero-section**/
+.hero-section{
+    background-image: url("81hIlE5xocL._SX3000_.jpg");
+    height: 280px;
+    background-size: cover;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.hero-details{
+    background-color: white;
+    color: black;
+    height: 20PX;
+    width: 800px;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:200px ;
+  
+}
+.hero-details a {
+    color: rgb(82, 128, 226);
+}
+.hero-details a:hover{
+    font-style: italic;
+}
+/**shope-section**/
+.shope-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #151409;
+    padding: 5px;
+    row-gap: 1rem;
+    
+    
+}
+.box{
+    border: 2px solid rgb(255, 252, 252);
+    height: 270px;
+    width: 23%;
+    background-color: white;
+    padding: 10px 0px 15px;
+}
+
+
+.box-image{
+    background-image: url("Fuji_SingleImageCard_2x._SY608_CB797652893_.jpg");
+    background-size: cover;
+    height: 210px;
+    margin-top: 5px;
+    margin-bottom: ;
+   
+}
+.creator{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+h2{
+    padding: 5px 0px 6px;
+}
+.par1{
+    color:  rgb(82, 128, 226);
+    margin-top: 0.7rem;
+}
+/**footer-panel**/
+.footer-panel{
+    background-color: #37475a;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/**footer-panel1**/
+.footer-panel1{
+
+    background-color:#192d45 ;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.footer-panel1 p{
+    font-size: 1rem;
+     margin-top: 40px;
+}
+.footer-panel1 a{
+    font-size: 0.7rem;
+     margin-top: 7px;
+     display: block;
+}
+/**footer-panel2**/
+.footer-panel2{
+    background-color: #0f1111;
+    height: 60px;
+    color: white;
+    border-top: 0.3px solid white ;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.logo{
+    background-image: url("Amazon-Emblem.jpg");
+    background-size: cover;
+    height: 40PX;
+    width: 90px;
+}
